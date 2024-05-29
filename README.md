@@ -91,6 +91,8 @@ Add Unit
 ![image](https://github.com/arisettysaiganesh/AitamAQG/assets/86103704/22d69e35-8522-4a64-b771-6a5b62871b76)
 
 
+Abstract:
+![image](https://github.com/arisettysaiganesh/AitamAQG/assets/86103704/f979a6dd-dd83-415d-86b7-36be5618efa4)
 
 
 
