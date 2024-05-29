@@ -1,5 +1,6 @@
 # AitamAQG
 Automatic Question Paper Generation For Higher Education (January 2024) | PHP, SQL, HTML, CSS
+(This Project Is Under Aditya Institute Of Technology And Management)
 
 
 Sign In Page
