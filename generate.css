@@ -1,0 +1,162 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #6bb9f0, #3498db);
+}
+
+ul li {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+/* Banner styles */
+.banner {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #b37e15;
+}
+
+/* Paper Generator form container styles */
+.paper-generator {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 30%; /* Adjust the width as needed */
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Form label styles */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333; /* Label color */
+}
+
+/* Form input styles */
+select,
+input {
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Input border color */
+  border-radius: 5px;
+  width: 100%;
+  font-size: medium;
+}
+
+/* Form submit button styles */
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+  width: 200px;
+  font-size: medium;
+  font-weight: 300;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Animation for the submit button */
+@keyframes buttonAnimation {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.animated-button {
+  animation: buttonAnimation 1s infinite; /* Run the animation infinitely */
+}
+
+/* DivTable styles */
+.divTable {
+  display: table;
+}
+
+.divTableRow {
+  display: table-row;
+}
+
+.divTableCell {
+  border: 1px solid #999999;
+  display: table-cell;
+  padding: 3px 10px;
+}
+
+/* Adjustments for specific elements */
+.divTableHeading,
+.divTableHead {
+  background-color: #EEE;
+  display: table-header-group;
+  font-weight: bold;
+}
+
+.divTableFoot {
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+}
+
+.divTableBody {
+  display: table-row-group;
+}
+
+/* Additional styles for the specific table layout */
+.divTableRow > .divTableCell {
+  width: calc(100% / 3); /* Adjust width for each cell */
+}
+
+.divTableRow:nth-child(odd) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}

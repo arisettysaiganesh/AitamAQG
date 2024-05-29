@@ -1,0 +1,10 @@
+p {
+    letter-spacing: 4px; /* Adjust the letter spacing value as needed */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    letter-spacing: 1px; /* Adjust this value to increase or decrease letter spacing */
+}

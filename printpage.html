@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generate PDF on Page Load</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.3/jspdf.umd.min.js"></script>
+
+<script>
+    // Generate PDF on page load
+document.addEventListener("DOMContentLoaded", function() {
+    // Create a new jsPDF instance
+    const pdf = new jsPDF('p', 'pt', 'a4');
+
+    // Add content to the PDF
+    pdf.text(20, 20, 'Your PDF Content Here');
+
+    // Save the PDF with a random name
+    const filename = generateRandomFilename() + ".pdf";
+    pdf.save(filename);
+});
+
+// Function to generate a random filename
+function generateRandomFilename() {
+    return Math.random().toString(36).substring(7);
+}
+
+</script>
+</head>
+<body>
+    <h1>Your HTML Content Here</h1>
+    <script src="script.js"></script>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6-FZv6zoh_e_99A7RPiFzZ4teqBkx6OSXO5D_sbAbkS6ziiSiCY9AEQR0rqUGHDXA8GR-TL5XbTWSlpUbP8tdISUKcMPjAn3YnGC3Y64FyieCOVa80WAQSk3NfmYL1FavnolnH33n1cUdn4m_M8kIG-jJ72NddyJgsMjX8f8N7TGPX-emNHP9-SZmRaU/s1600/Screenshot%202024-03-13%20100843%20-%20Copy.png" alt="">
+</body>
+</html>
