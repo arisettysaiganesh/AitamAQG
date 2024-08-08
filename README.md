@@ -2,7 +2,7 @@
 Automatic Question Paper Generation For Higher Education (January 2024) | PHP, SQL, HTML, CSS
 (This Project Is Under Aditya Institute Of Technology And Management)
 
-[![Watch the video](https://img.youtube.com/vi/O9s2bCbESxY/maxresdefault.jpg)](https://www.youtube.com/watch?v=O9s2bCbESxY)
+[![Watch the video](https://github.com/user-attachments/assets/7e60c8d4-a5ab-47e0-bae5-58e7700fbf90)](https://www.youtube.com/watch?v=O9s2bCbESxY)
 
 
 
